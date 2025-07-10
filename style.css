@@ -48,3 +48,24 @@
       font-size: 0.9em;
       color: #888;
     }
+/* Estilização do menu de navegação com apenas um link */
+nav {
+  background-color: #795548; /* marrom chocolate */
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #5d4037; /* tom mais escuro no hover */
+}
